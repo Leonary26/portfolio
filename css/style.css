@@ -1,0 +1,148 @@
+body{
+    margin: 0;
+    background: rgb(24, 24, 24);
+    color: white;
+}
+ * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body::before {
+            content: '';
+            position: fixed;
+            top: -50%;
+            left: -50%;
+            width: 200%;
+            height: 200%;
+            background: 
+                 radial-gradient(circle at 80% 80%, rgba(0, 0, 0, 0.3) 0%, rgba(6, 28, 114, 0.351) 50%);
+            animation: drift 20s ease-in-out infinite;
+            pointer-events: none;
+        }
+ @keyframes drift {
+            0%, 100% { transform: translate(0, 0) rotate(0deg); }
+            33% { transform: translate(50px, 100px) rotate(120deg); }
+            66% { transform: translate(-50px, 50px) rotate(240deg);}
+        }
+          .container {
+            max-width: 1400px;
+            margin: 0 auto;
+            position: relative;
+            z-index: 1;
+        }
+.nav-link{
+   
+   color: white;
+   width: 110px;
+   text-align: center;
+   transition: all 600ms;
+   text-align: center;
+}
+.nav-link:hover{
+   background: #0000ff;
+   color: white;
+   border-radius: 10px;
+   text-align: center;
+   transform: translateZ(-10px);
+   text-align: center;
+}
+.navbar-brand{
+  color: #0000ff; 
+  font-family:Ardhelia;
+}
+
+
+.titre{
+  color: #0000ff; 
+  font-size: 66px !important;
+  font-family:Ardhelia;
+}
+.titre1{
+  font-size: 60px !important;
+  font-family:Ardhelia;
+}
+.text1{
+  color: #0000ff;
+}
+@font-face {
+    font-family:robot ;
+    src: url(../font/timesbd.ttf);
+}
+.btn-succes{
+    background: #0000ff;
+    color:white;
+}
+.btn-succes:hover{
+    background: #0000ff;
+    color:white;
+}
+.image{
+        height: auto;
+    width: 398px;
+    border-radius: 50%;
+    box-shadow: 0 0 30px rgba(102, 126, 234, 0.6), 0 0 60px rgba(102, 126, 234, 0.4);
+}
+.icon{
+    font-size: 100px;
+    color: #0000ff;
+    transition: all 0.4s ease;
+}
+.icon:hover{
+    font-size: 100px;
+    transform: translateY(-20px);
+    color: white;
+    
+}
+.icon2{
+    font-size: 30px;
+    padding: 10px;
+}
+.icon3{
+    font-size: 40px;
+    padding: 10px;
+
+}
+
+.card-body{
+           height: 20%;
+}
+.card{
+  transition: all 600ms; 
+
+}
+.card:hover{
+    transform: translateX(40px);
+
+}
+.col-auto{
+       width: 50%;
+
+}
+textarea{
+    height: 250px;
+}
+.input{
+   background: rgb(20 20 23 / 34%) !important;
+    color: white !important;
+}
+.input:hover{
+   background: rgb(20 20 23 / 34%) !important;
+}
+section{
+    scroll-margin-top: 100px !important;
+    padding: 6%;
+}
+@font-face {
+    font-family:Ardhelia;
+    src: url(../font/Anton-Regular.ttf);
+}
+.a{
+    text-decoration: none;
+   color: white;
+}
+.a:hover{
+    color: #0000ff;
+}
+
