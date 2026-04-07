@@ -80,7 +80,7 @@ body{
 }
 .image{
         height: auto;
-    width: 398px;
+    width: 66%;
     border-radius: 50%;
     box-shadow: 0 0 30px rgba(102, 126, 234, 0.6), 0 0 60px rgba(102, 126, 234, 0.4);
 }
@@ -132,7 +132,7 @@ textarea{
 }
 section{
     scroll-margin-top: 100px !important;
-    padding: 6%;
+    padding-top: 5%;
 }
 @font-face {
     font-family:Ardhelia;
@@ -145,4 +145,6 @@ section{
 .a:hover{
     color: #0000ff;
 }
-
+.footer{
+    margin-top: 9%;
+}
